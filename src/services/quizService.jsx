@@ -53,7 +53,7 @@ const mockQuizzes = [
   const mockQuizDetails = [
     {
       id: 1,
-      title: 'General Knowledge',
+      title: 'HTML',
       description: 'Test your general knowledge!',
       questions: [
         {

@@ -32,10 +32,10 @@ const QuizPage = () => {
   return (
     <div className="container mx-auto px-6 py-12">
       <div className="bg-white shadow-lg rounded-lg p-8 max-w-3xl mx-auto">
-        {/* Quiz Title */}
+        
         <h1 className="text-4xl font-bold text-sky-800 text-center mb-6">{quiz.title}</h1>
 
-        {/* Progress Bar */}
+        
         <div className="relative w-full bg-gray-200 rounded-full h-4 mb-6">
           <div
             className="absolute bg-sky-500 h-4 rounded-full"
@@ -43,7 +43,7 @@ const QuizPage = () => {
           ></div>
         </div>
 
-        {/* Question */}
+       
         <div className="mb-6">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Question {currentQuestion + 1} of {quiz.questions.length}
@@ -51,7 +51,7 @@ const QuizPage = () => {
           <p className="text-lg text-gray-700">{question.text}</p>
         </div>
 
-        {/* Answer Options */}
+       
         <div className="grid gap-4">
           {question.options.map((option, index) => (
             <button

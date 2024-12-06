@@ -14,7 +14,7 @@ const ScoreSummary = () => {
 
   return (
     <div className="container mx-auto px-6 py-12">
-      {/* Score Hero Section */}
+      
       <div className="text-center bg-gradient-to-r from-blue-400 to-sky-500 text-white rounded-lg shadow-lg p-8 mb-8">
         <h1 className="text-4xl font-bold mb-4">Quiz Results</h1>
         <p className="text-2xl font-semibold">
@@ -26,7 +26,7 @@ const ScoreSummary = () => {
         </p>
       </div>
 
-      {/* Question Breakdown */}
+      
       <div className="bg-white rounded-lg shadow-md p-6">
         <h2 className="text-2xl font-bold mb-6">Question Breakdown</h2>
         <div className="space-y-6">

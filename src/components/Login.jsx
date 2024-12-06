@@ -6,7 +6,7 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle login logic here (e.g., API call)
+   
     console.log('Login submitted:', { email, password });
   };
 

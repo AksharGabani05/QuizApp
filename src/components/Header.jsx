@@ -11,7 +11,7 @@ const Header = () => {
           QuizApp
         </Link>
 
-        {/* Mobile menu button */}
+      
         <button
           className="lg:hidden text-white focus:outline-none"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -32,7 +32,7 @@ const Header = () => {
           </svg>
         </button>
 
-        {/* Desktop navigation (visible on large screens) */}
+        
         <nav className="hidden lg:flex">
           <ul className="flex space-x-6">
             <li>
@@ -55,7 +55,7 @@ const Header = () => {
           </ul>
         </nav>
 
-        {/* Mobile Popup Menu (visible when isMenuOpen is true) */}
+        
         <div className={`lg:hidden ${isMenuOpen ? 'block' : 'hidden'} absolute top-16 left-0 right-0 bg-sky-950 text-white rounded-lg shadow-lg p-4`}>
           <ul className="space-y-4">
             <li>

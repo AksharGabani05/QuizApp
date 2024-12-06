@@ -8,7 +8,6 @@ const Register = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle registration logic here (e.g., API call)
     if (password !== confirmPassword) {
       alert("Passwords don't match!");
       return;
